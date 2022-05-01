@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# NZ-UI
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+NZ-UI 是一款基于 Vue 3 的 UI 组件库。
 
-## Recommended IDE Setup
+个人练习的项目，思路粗浅。
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+练习项目，故未上传到npm，不涉及安装和使用。
+
+全程自主实现，代码里引用其他组件库，如有雷同，纯属借鉴。
+
+
