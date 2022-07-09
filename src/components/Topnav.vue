@@ -56,7 +56,7 @@ $color: #007974;
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid rgb(134, 198, 240);
-  box-shadow: 0px 1px 3px rgb(187, 189, 190);
+  box-shadow: 0px 1px 2px rgb(187, 189, 190);
   > .logo {
     max-width: 10em;
     min-width: 110px;

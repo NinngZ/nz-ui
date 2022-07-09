@@ -58,8 +58,8 @@ $color: #007974;
     align-items: center;
     flex-basis: 500px;
     flex-grow: 1;
-    border-bottom: 2px solid rgb(134, 198, 240);
-    box-shadow: 0px 1px 3px rgb(187, 189, 190);
+    border-bottom: 2px solid rgb(187, 189, 190);
+    
     >.actions{
         padding: 8px 0;
         a{
@@ -94,7 +94,6 @@ $color: #007974;
     width: 400px;
     height: 100px;
     background: rgba(251,251,251,0.2);
-    border-bottom: 2px solid rgb(134, 198, 240);
     box-shadow: 1px 1px 2px rgb(163, 166, 167);
     backdrop-filter: blur(5px);
     border-radius: 6px;

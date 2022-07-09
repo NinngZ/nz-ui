@@ -7,6 +7,9 @@ import DialogDemo from './components/DialogDemo.vue'
 import TabsDemo from './components/TabsDemo.vue'
 import DocDemo from './components/DocDemo.vue'
 import MessageDemo from './components/MessageDemo.vue'
+import SwiperDemo from './components/SwiperDemo.vue'
+import StarsDemo from './components/StarsDemo.vue'
+import TreeMenuDemo from './components/TreeMenuDemo.vue'
 import GetStarted from './views/GetStarted.vue'
 import Install from './views/Install.vue'
 import Intro from './views/Intro.vue'
@@ -36,7 +39,10 @@ export const router = createRouter({
             {path:'button',component:ButtonDemo},
             {path:'dialog',component:DialogDemo},
             {path:'tabs',component:TabsDemo},
-            {path:'message',component:MessageDemo}
+            {path:'message',component:MessageDemo},
+            {path:'swiper',component:SwiperDemo},
+            {path:'stars',component:StarsDemo},
+            {path:'treemenu',component:TreeMenuDemo}
         ]}
         
     ]

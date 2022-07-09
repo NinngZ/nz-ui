@@ -10,19 +10,17 @@
         <Button @click="copy">复制代码</Button>
       </div>
       <div class="demo-code" v-if="codeVisible">
-        <pre class="language-html">
-          <code  v-html="html" />
-        </pre>
+        <pre class="language-html" v-html="html" />
       </div>
     </div>
 </template>
 <script lang="ts">
 import Button from "../lib/Button.vue";
-import Prism from "prismjs";
-import "prismjs/themes/prism-tomorrow.min.css";
+import  "prismjs";
+import '../../node_modules/prismjs/themes/prism-tomorrow.css'
 import { ref } from '@vue/reactivity';
 import { computed } from '@vue/runtime-core';
-//const Prism = (window as any).Prism;
+const Prism = (window as any).Prism;
 import useClipboard from 'vue-clipboard3'
 import { Message } from '../lib/message'
 export default {
@@ -78,7 +76,7 @@ $border-color: #d9d9d9;
 .demo {
   border: 1px solid $border-color;
   border-radius: 6px;
-  margin: 16px 0 32px;
+  margin: 16px 0 24px;
   max-width: 1000px;
   > h2 {
     font-size: 20px;
@@ -104,6 +102,5 @@ $border-color: #d9d9d9;
   }
 }
 </style>
-<style lang="scss">
-@import "prismjs/themes/prism-tomorrow.min.css";
-</style>
+
+

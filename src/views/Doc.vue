@@ -34,6 +34,15 @@
                     <li>
                         <router-link to="/doc/message">Message 组件</router-link>
                     </li>
+                    <li>
+                        <router-link to="/doc/swiper">Swiper 组件</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/doc/stars">Stars 组件</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/doc/treemenu">TreeMenu 组件</router-link>
+                    </li>
                 </ol>
                     
             </aside>
@@ -70,7 +79,7 @@
         }
         > .content{
             flex-grow: 1;
-            padding-top: 60px;
+            padding-top: 50px;
             padding-left: 186px;
             @media (max-width:500px) {
                 padding-left: 0;
@@ -84,8 +93,9 @@
         }
         >main{
             flex-grow: 1;
-            padding:28px  16px;
+            padding:28px  16px 0;
             background: white;
+            
         }
     }
     aside{
@@ -113,7 +123,7 @@
                 }
                 .router-link-active{
                     background:rgba(255, 255, 255, 0.3);
-                    border-left: 5px solid rgb(238, 238, 157);
+                    border-left: 5px solid rgb(246, 246, 129);
                     /*background: #C8EE44;*/
                     padding-left: 20px;
                 }
